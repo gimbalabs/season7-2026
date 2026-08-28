@@ -15,6 +15,7 @@
 
 ### 1. Check-in
 
+Generally with the recorders turned off 
 What's on your mind as we begin another Gimbal Labs season?
 
 ### 2. Agenda Items
