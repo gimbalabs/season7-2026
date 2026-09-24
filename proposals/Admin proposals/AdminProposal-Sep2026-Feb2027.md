@@ -176,6 +176,9 @@ If this proposal is approved before Gimbalabs LLC is legally formed, the proposa
 
 ## Consent Process
 
+Concern:
+Evaluation time of 6 months(good or not)
+
 ### Objections Raised
 
 _Record any objections raised during the consent period, along with how they were addressed._
