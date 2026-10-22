@@ -42,9 +42,21 @@ Twelve test sessions in six weeks, two per week. Wednesday is DeFi. Thursday is 
 
 Test first. Build second. The first direction is the Cardano Foundation survey: identity and authentication, then DeFi and stablecoins, then core infrastructure. The categories below are the test list, not seven products Gimbalabs must invent.
 
-**Thursday — Layer 2.** Test core infrastructure, oracles, bridges, and payments. If a general-purpose Layer 2 is not feasible, can a Hydra fork serve a special-purpose Layer 2 that works with Cardano L1? This track is narrower. It stays on one infrastructure question and ends in one prototype, so two people are enough.
+**Thursday — Layer 2.**
 
-**Wednesday — DeFi.** Test stablecoins, payments, identity, lending, and real-world assets. The build target comes from those tests, not from a single preset problem. This track is broader. It touches several kinds of products, so it can take up to three people. One person is enough to run it. A third person joins only if someone wants the seat.
+- **Problem.** Hydra still asks users to run a node, stay online, and coordinate in a fixed group.
+- **Question.** Can we keep Hydra’s transaction and settlement model, and still let clients come and go?
+- **Hypothesis.** Hydra can keep Cardano settlement. A shared operator layer and clients who are not always online cover the rest.
+- **Conclusion.** Week 5 states the conclusion from the tests. It is not chosen in advance. It may be a payment channel, a bridge, an oracle, another small product.
+- **Proposed solution.** Week 6 decision and practicality, the product named in that conclusion.
+
+**Wednesday — DeFi.** Project Catalyst Pilot 2026 is the reason these four areas are the starting list: identity and verifiable credentials, stablecoins, programmable tokens, and oracles. That list is a hypothesis about what the ecosystem needs. It is not a plan to build four products.
+
+- **Problem.** Cardano already has tools in these areas, and some projects have stalled. It is not clear what a developer or user still cannot do easily.
+- **Question.** What remains hard despite existing tools, and is that gap large enough to justify another product?
+- **Hypothesis.** Comparing a working Cardano tool with a working tool from another ecosystem will show the gap, if there is one.
+- **Conclusion.** Week 5 ranks the gaps, including closed projects. Week 6 names one product, or no build.
+- **Proposed solution.** One small proof of concept, only if the tests support it. One person can run this track. Three is the maximum.
 
 Rules:
 
@@ -52,13 +64,14 @@ Rules:
 2. Week 6 and onward delivers a working project that can be used to rise funds to continue building, give announcements let people test or show interests.
 3. Publish notes, code, setup steps, and recordings.
 
+
 ### 3. Intended Outcome
 
 After 7 weeks:
 
 - Every product listed below has been tested in a session.
-- One Layer 2 product that works with Cardano L1 and can work in preprod.
-- Working DeFi products drawn from the tests.
+- One Layer 2 product chosen from the week-6 onward evidence.
+- One DeFi proof of concept chosen in week 6, or a written decision not to build.
 - Notes from the week-7 meeting on what was built and how AI can help in blockchain.
 - A public reason for each build that was kept or dropped.
 
@@ -72,25 +85,54 @@ Test every product in that week’s row before starting a build. Wednesday is De
 
 #### Track A — Thursday, Layer 2
 
-| Week | Session | Products to test | Question | Output |
+A tool is in the test only if we can run a real local network, read the code, stop nodes on purpose, and reuse an idea in a Cardano prototype. Hydra stays the baseline. [Core Lightning](https://github.com/ElementsProject/lightning), [CometBFT](https://github.com/cometbft/cometbft), and the [OP Stack](https://github.com/ethereum-optimism/optimism) answer three different questions. They are not three candidates for the same product.
+
+| Week | Session | What we test | Question | Output |
 | --- | --- | --- | --- | --- |
-| 1 | Core infrastructure | | How do setup, settlement, and the link to Cardano L1 compare? | Setup and settlement comparison. |
-| 2 | Data, oracles, and analytics | | How do update rate, delay, failure, cost, and use in a Plutus validator compare? | One oracle integration test and a reference design. |
-| 3 | Bridges and interoperability | | Can an outside event reach Cardano, and what trust does that require? | Threat model and one interoperability test. |
-| 4 | Payment channels and Hydra | | How do flow, settlement, throughput, and user experience compare? | Execution and settlement comparison. |
-| 5 | Remaining Layer 2 tests | | Which gap is still open after the earlier tests? | Shortlist for the week-6 prototype. |
-| 6 | Prototype | | Which single problem is worth a Hydra fork or other special-purpose Layer 2 that works with Cardano L1? | One working prototype on preprod, or a decision not to build. |
+| 1 | Hydra baseline | [Hydra](https://github.com/cardano-scaling/hydra), plus a read of the Tail design | How does Hydra work with Cardano L1, and is Tail mature enough to deploy? | A note on setup, settlement, and Tail’s maturity. Tail is not given its own deploy session unless that note says it is ready. |
+| 2 | Asynchronous payment channels | Core Lightning | Can a client pay without running its own node? | Payment success, reconnect time, routing failures, and what happens when the channel operator is offline. |
+| 3 | Distributed consensus | CometBFT | Can independent operators agree, and survive some of them going offline? | Finality time, throughput as validators are added, failures tolerated, and recovery. Progress still needs more than two-thirds of voting power online. |
+| 4 | Shared execution | OP Stack | Can many clients share one execution network and talk to it by RPC? | Transactions per second, confirmation time, load from many clients, sequencer downtime, and L1 settlement time. The usual sequencer is not decentralized. |
+| 5 | Product choice | Weeks 1–4, plus Hydrozoa, Gummiworm, and Strike Node | What gap did the tests actually show? | One written choice. See the decision below. |
+| 6 | Build | The week-5 choice, with Hydra as the baseline | Can that product run on preprod? | A working prototype, or a public decision not to build. |
+
+**Week 6 decision**
+
+1. Name the gap the tests showed: discovery, uptime, agreement, throughput, cross-Head coordination, or something else.
+2. Compare at least two existing implementations. Say whether the gap can be filled by reuse, or needs a new piece.
+3. Pick the smallest product that closes that gap and can be tested.
+
+Possible results, only if the evidence points there:
+
+- A Hydra network that is easier to join.
+- A shared operator-discovery service.
+- A cross-Head payment or coordination layer.
+- A bridge or an oracle.
+- No build.
+
+A bridge or an oracle is not chosen because it was on a list. The result that matters is:
+
+- More users.
+- Less work per user.
+- Measured throughput.
+- Safe operation when some participants disconnect.
+
+A higher transaction count by itself is not the result.
 
 #### Track B — Wednesday, DeFi
 
-| Week | Session | Products to test | Question | Output |
+Each session runs a working demo, reads the implementation, compares at least one alternative, writes down what fails, and says whether Cardano should reuse it, integrate it, or build something smaller. Eight products are tested so a week is a comparison, not a single demo.
+
+| Week | Area | What we test | Question | Output |
 | --- | --- | --- | --- | --- |
-| 1 | DeFi and stablecoins | | How is USDCx minted, moved, spent, and redeemed on Cardano, and how do other Cardano stablecoin enterprises issue, back, and redeem their coins? | A practical note on USDCx usage and on how each other stablecoin enterprise works. |
-| 2 | Payment | | What does it take to send or settle a payment with these tools? | Payment flow note. |
-| 3 | Identity and authentication | | Can a credential be issued and checked in one workflow? | One integration test and a list of gaps. |
-| 4 | Real-world asset tokenization | | How is a real-world asset minted, transferred, and limited? | Tokenization case study. |
-| 5 | Programmable tokens | | How do programmable tokens work with wallets, SDKs, and apps, including transfer limits? | One integration test and a list of compatibility gaps. |
-| 6 | Working product | | Which tested gap is worth a working DeFi product for the next Catalyst round? | One working product on preprod, or a written reason not to build. |
+| 1 | Identity and verifiable credentials | Veridian Wallet; Ethereum Attestation Service | Can an organisation issue a credential that another app can check, without putting personal documents on-chain? | One issued credential, one check in a second app, the trust model, and the integration effort. Veridian is the first identity case. It does not cover the whole category. It uses KERI and ACDC. |
+| 2 | Stablecoins | USDM; USDCx; Circle CCTP on a route it actually supports | Is the gap the coin, or the path from a bank or exchange onto Cardano and back? | Steps, fees, time, wallets, and trust for each path. USDM and USDCx are different designs. Check CCTP’s supported-chain list before treating Cardano as included. Also note how DJED and iUSD differ. They are not the same kind of dollar asset. |
+| 3 | Programmable tokens | CIP-0113; ERC-3643 / T-REX | Which issuer controls are useful, and how hard is a full Cardano integration? | The same cases on both: allowed transfer, blocked transfer, freeze, pause, recovery, and admin changes. Test the current CIP-0113 implementation. |
+| 4 | Oracles | Pyth; CHARLI3 | Is a pull-based price easier or cheaper for a Cardano app than a feed pushed on-chain? | Freshness, verification, cost, and what the app does when the price is stale or missing. CHARLI3 has both a push and a pull design. Confirm which feeds are available before the benchmark. |
+| 5 | Failures and missing pieces | The weakest results from weeks 1–4; Ardana; Spectrum Finance | Which failures were technical, and which were funding, liquidity, distribution, or rules? | A ranked list of gaps. Ardana stopped in November 2022. Spectrum Finance closed in August 2025. These are postmortems, not live demos, unless the code still runs. |
+| 6 | Choose one direction | The week-5 ranking | Is one small capability worth a proof of concept? | One working proof of concept, or a written decision not to build. |
+
+Every product is recorded on the same sheet: setup time, what it actually does, steps for another app to use it, failure and recovery, who can issue or freeze or verify, fees, maintenance, the Cardano gap, and a verdict. The verdict is one of: reuse, integrate, contribute, build an adapter, prototype a missing piece, or do nothing.
 
 Week 7 is not a test session. Both teams meet, share what was tested and built, and discuss how AI can help in blockchain.
 
@@ -122,12 +164,12 @@ Six test weeks, then one joint week. **Wednesday: DeFi. Thursday: Layer 2.** Wee
 
 | Week | Wednesday — DeFi | Thursday — Layer 2 | Pay |
 | --- | --- | --- | --- |
-| 1 | USDCx and other stablecoin enterprises | Core infrastructure | Medium |
-| 2 | Payment | Data, oracles, and analytics | Research, equal |
-| 3 | Identity and authentication | Bridges and interoperability | Research, equal |
-| 4 | Real-world asset tokenization | Payment channels and Hydra | Research, equal |
-| 5 | Programmable tokens | Remaining Layer 2 tests | Research, equal |
-| 6 onward | DeFi building | Layer 2 building | Paid after building cand demo launch with announcement to community |
+| 1 | Veridian and Ethereum Attestation Service | Hydra, and a Tail review | Medium |
+| 2 | USDM, USDCx, and Circle CCTP | Core Lightning | Research, equal |
+| 3 | CIP-0113 and ERC-3643 | CometBFT | Research, equal |
+| 4 | Pyth and CHARLI3 | OP Stack | Research, equal |
+| 5 | Failures and ranked gaps | Choose the Layer 2 product | Research, equal |
+| 6 onward | Build the chosen DeFi proof, or publish no-build | Build the chosen Layer 2 product | Paid after building cand demo launch with announcement to community |
 | 7 | Both teams meet. Share what was tested and built. Discuss how AI can help in blockchain. | | No separate pay |
 
 ### 8. Resources Required
