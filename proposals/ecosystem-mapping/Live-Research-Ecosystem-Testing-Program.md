@@ -56,7 +56,7 @@ Test first. Build second. The first direction is the Cardano Foundation survey: 
 - **Question.** What remains hard despite existing tools, and is that gap large enough to justify another product?
 - **Hypothesis.** Comparing a working Cardano tool with a working tool from another ecosystem will show the gap, if there is one.
 - **Conclusion.** Week 5 ranks the gaps, including closed projects. Week 6 names one product, or no build.
-- **Proposed solution.** One small proof of concept, only if the tests support it. One person can run this track. Three is the maximum.
+- **Proposed solution.** One small proof of concept, only if the tests support it. Up to four people.
 
 Rules:
 
@@ -183,26 +183,53 @@ The request is **9,500 ADA**. At **$0.22 per ADA**, that is **$2,090**.
 | Project-lead coordination | 500 | $110 |
 | **Total** | **9,500** | **$2,090** |
 
-DeFi has three people because the track covers several product types. Layer 2 has two people because the track is one specific infrastructure question. Each of the five people receives the same **1,800 ADA** for the work. The 500 ADA coordination payment is extra, and it is not taken from either pool.
+The total stays **9,500 ADA**. DeFi is up to four people because that track covers several product types. Layer 2 is up to three people cause it's also a broad scope, while the question stays one product. Pay is for hours of work.
 
-| Pool | People | ADA | Pays |
-| --- | ---: | ---: | --- |
-| DeFi | 3 | 5,400 | Wednesday tests and the week-6 DeFi product |
-| Layer 2 | 2 | 3,600 | Thursday tests and the week-6 Layer 2 prototype |
-| Project lead | | 500 | Coordination and supervision |
-| **Total** | **5** | **9,500** | |
+**Who can join**
+
+Layer 2:
+
+- A machine that can run and spin up nodes, Docker, and a Cardano node if needed.
+- Comfortable with blockchain terms used in Hydra, consensus, and Layer 2 docs.
+
+DeFi:
+
+- Able to test products, judge user experience, and write down what fails.
+- Able to document findings and sketch the next product.
+- Comfortable with technical terms used in wallets, tokens, oracles, and DeFi apps.
+
+**Hours**
+
+A Layer 2 meeting is **at most two hours**. Time between sessions is for running nodes, tests, and notes. DeFi meetings follow the same two-hour cap. Time between sessions is for testing, mapping, and writing.
+
+| Work | Hours per person |
+| --- | ---: |
+| Six meetings, 2 hours each | 12 |
+| Prep and tests between sessions, 6 weeks | 18 |
+| Week 6 build | 8 |
+| Week 7 joint meeting | 2 |
+| **Total** | **40** |
+
+At **$0.22 per ADA**, 40 hours at the rates below is about **$6.60 per hour** on Layer 2 and **$7.43 per hour** on DeFi.
+
+| Pool | People | ADA | Each | USD each | ADA per hour |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| DeFi | 4 | 5,400 | 1,350 | $297 | 33.75 |
+| Layer 2 | 3 | 3,600 | 1,200 | $264 | 30 |
+| Project lead | | 500 | 500 | $110 | extra for coordination |
+| **Total** | **7** | **9,500** | | **$2,090** | |
 
 | Person | Role | ADA |
 | --- | --- | ---: |
-| Emmanuel | Layer 2 | 1,800 |
-| One open nominee | Layer 2 | 1,800 |
-| Ahmed | DeFi | 1,800 |
-| Jethro | DeFi | 1,800 |
-| One open nominee | DeFi | 1,800 |
+| Emmanuel | Layer 2 | 1,200 |
+| Two open nominees | Layer 2 | 1,200 each |
+| Ahmed? | DeFi | 1,350 |
+| Jethro? | DeFi | 1,350 |
+| Two open nominees | DeFi | 1,350 each |
 | Emmanuel | Coordination and supervision | 500 |
 | **Paid** | | **9,500** |
 
-Ahmed and Jethro are nominated for DeFi. One DeFi seat is open. Emmanuel is nominated for Layer 2 and is the project lead. One Layer 2 seat is open.
+Ahmed and Jethro are nominated for DeFi. Two DeFi seats are open. Emmanuel is nominated for Layer 2 and is the project lead. Two Layer 2 seats are open. An empty seat stays in that track’s pool and is split by the people who joined. It is not cut from the request.
 
 | Week | DeFi | Layer 2 | Both | Why |
 | --- | ---: | ---: | ---: | --- |
@@ -217,11 +244,11 @@ Ahmed and Jethro are nominated for DeFi. One DeFi seat is open. Emmanuel is nomi
 
 ### 9. Responsibilities
 
-**Layer 2** is Emmanuel and one open nominee. Two people, because that track stays on one infrastructure question.
+**Layer 2** is Emmanuel and up to two open nominees. Three people. Meetings are at most two hours. Contributors must be able to run Docker and nodes, and must be able to work with blockchain terms.
 
-**DeFi** is Ahmed, Jethro, and one open nominee. Three people, because that track tests several kinds of products.
+**DeFi** is Ahmed?, Jethro?, and up to two open nominees. Four people, because that track compares several product types. Contributors must be able to test user experience, write notes, map a next product, and work with technical terms.
 
-**Emmanuel** is the project lead. responsible for success, coordination and supervision.
+**Emmanuel** is the project lead, responsible for coordination and supervision. He receives **500 ADA** for that work, inside the **9,500 ADA** total.
 
 Both teams attend week 7. **Gimbalabs** accepts each week’s output before that week’s payment. Attendance is not acceptance.
 
