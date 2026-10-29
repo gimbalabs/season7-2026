@@ -47,7 +47,7 @@ The question comes first. XP and Coach are how to test it, not the reason for it
 Cardano XP is not new to Gimbalabs. The *Cardano Community Feedback Tooling* proposal (https://github.com/gimbalabs/gimbalabs-project-archive/blob/main/projects/active/cardano-community-feedback-tooling/proposal.md) funded it with 15,000 ADA for hosting, sponsored transactions, project admin and the project team. This proposal builds on that one rather than replacing it.
 
 - Cardano XP: https://github.com/workshop-maybe/cardano-xp · https://cardano-xp.vercel.app
-- Coach: https://github.com/workshop-maybe/coach-desktop 
+- Coach: https://github.com/workshop-maybe/coach 
 
 ### 3. Intended Outcome
 
