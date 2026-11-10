@@ -32,7 +32,7 @@ Gimbalabs Public Brand Kit: the official logos, colours, fonts and simple rules,
 
 This proposal builds the same thing for Gimbalabs, using only what Gimbalabs already has. Nothing is redesigned or invented. It uses the official Gimbalabs logo files, the colours already on gimbalabs.com and the hexagon background, and the fonts the website already names.
 
-**Who will do it:** I am Jethro Adebisi, a UI/UX and brand designer. I am the UX Designer at BlockPrint, a Cardano builder community, and I have led a Cardano x Gimbalabs session.
+**Who will do it:** I am Jethro Adebisi, a UI/UX and brand designer. I am the UX Designer at BlockPrint, a Cardano builder community, and I have led a Cardano x Gimbalabs session. I will collaborate on building the website with Newman Lanier and any other community members willing to volunteer for this project.
 
 **Why this is an experiment, not just a task:** Harsha Gullapalli's "What Is Gimbalabs?" says "An experiment is useful when it leaves evidence someone else can use." A brand kit is a small, clear test of that. We can check whether people actually use it, and whether it saves them time. If it works, any other community can copy the method.
 
@@ -83,7 +83,7 @@ The work takes four weeks, one step a week.
 - Share the draft in an Open Spaces session and collect feedback.
 
 **Week 3: Build.**
-- Build the public brand kit page with all the downloads and the "download everything" zip.
+- Build the public brand kit page with all the downloads and the "download everything" zip (working together with Newman Lanier and any community volunteers).
 - Make the two templates.
 - Make the animated logo.
 - Make the changes from the Week 2 feedback.
@@ -95,7 +95,7 @@ The work takes four weeks, one step a week.
 - Write and publish the report.
 
 Technical notes:
-- The page can live on gimbalabs.com or on a free GitHub page; the core team chooses in Week 1.
+- The page can live on gimbalabs.com or on a free GitHub page; the core team chooses in Week 1. Development of the web page will be done collaboratively by Jethro Adebisi, Newman Lanier, and any interested community volunteers.
 - The free font option means anyone can follow the guide without paying for a font. The paid font is never shared.
 
 ### 5. Impact and Benefits
@@ -139,21 +139,22 @@ Dates assume approval by 5 November 2026 and move with it. The whole project tak
 ### 8. Resources Required
 
 - **People:**
-  - me, the designer: about 76 hours over the four weeks
-  - one person from the core team to make the Week 1 decisions and review the draft: about 3 hours
+  - Jethro Adebisi (designer): about 76 hours over the four weeks
+  - Newman Lanier (core team / admin): collaborates on the website build, makes the Week 1 decisions, and reviews deliverables (about 3–5 hours)
+  - Community volunteers: any community members willing to volunteer and contribute to building the website
   - 4 volunteers for the timed test: about 30 minutes each
 - **Tools:** Figma, GitHub and Discord, all already in use, so there are no tool costs.
-- **Budget: 6,000 ADA** (about $1,200 at roughly $0.20 per ADA).
+- **Budget: $600** (or approximately 3,000 ADA at roughly $0.20 per ADA).
 
-| Week | Work | Hours | ADA |
-|---|---|---|---|
-| 1. Gather and agree | Collect the brand pieces, core-team meeting, decisions written down | 10 | 800 |
-| 2. Design | All logo files, the brand guide (about 12 pages), feedback session | 26 | 2,050 |
-| 3. Build | The public brand kit page and zip, two templates, the animated logo, changes from feedback | 26 | 2,050 |
-| 4. Launch and test | Publishing, announcement and walkthrough video, timed test, survey, report | 14 | 1,100 |
-| **Total** | | **76** | **6,000** |
+| Week | Work | Hours | ADA | USD |
+|---|---|---|---|---|
+| 1. Gather and agree | Collect the brand pieces, core-team meeting, decisions written down | 10 | 400 | $80 |
+| 2. Design | All logo files, the brand guide (about 12 pages), feedback session | 26 | 1,025 | $205 |
+| 3. Build | The public brand kit page (with Newman and volunteers) and zip, two templates, animated logo, feedback revisions | 26 | 1,025 | $205 |
+| 4. Launch and test | Publishing, announcement and walkthrough video, timed test, survey, report | 14 | 550 | $110 |
+| **Total** | | **76** | **3,000** | **$600** |
 
-That is about 79 ADA an hour. I ask to be paid at the end of each week for that week's work, so each step can be checked before the next is paid.
+That is about 39.5 ADA (~$7.90) an hour. I ask to be paid at the end of each week for that week's work, so each step can be checked before the next is paid.
 
 9. Licensing and IP
 
@@ -166,11 +167,15 @@ This proposal's arrangement is set out in section 12.
 - **Jethro Adebisi (designer and proposer):**
   - gathers the brand pieces and writes down the decisions
   - designs the logo files, the brand guide, the templates and the animated logo
-  - builds the public brand kit page
+  - builds the public brand kit page in collaboration with Newman Lanier and any community volunteers
   - runs the timed test and the survey
   - writes the report
-- **A Gimbalabs core-team member (a Gimbalabs Admin, Harsha Gullapalli or Newman Lanier, to be confirmed):** makes the Week 1 decisions, reviews the draft, approves the kit for launch, and gives access to the repository and website.
-- **4 volunteers (found in Discord):** take part in the timed test and the survey.
+- **Newman Lanier (Gimbalabs Admin / Core Team):**
+  - collaborates on building and integrating the brand kit website
+  - helps make Week 1 decisions, reviews the draft, approves the kit for launch, and provides required access to the repository and website
+- **Community Volunteers:**
+  - any community members willing to volunteer and contribute towards building the website
+  - 4 volunteers (found in Discord) to take part in the timed test and survey
 - **Open Spaces participants:** give feedback on the draft in Week 2.
 
 ### 10. Potential Risks and Mitigation Strategies
@@ -231,4 +236,6 @@ Existing material to be used:
 
 ## Discussion Notes
 
-[Optional: Capture key points from discussions during Open Spaces or Discord.]
+- **Discussion with Newman Lanier (Admin):**
+  - Adjusted the total budget to $600 (approximately 3,000 ADA) to align with community resources and scope.
+  - Clarified that building the brand kit web page will be done collaboratively by Jethro Adebisi and Newman Lanier, and welcomes any other community members willing to volunteer for the project.
