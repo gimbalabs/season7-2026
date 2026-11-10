@@ -69,7 +69,7 @@ The program will launch with at least 10 qualified teams. A cohort of 20–30 is
 
 Teams may change members, revise their services, or pivot their products. Changes that affect agreed goals or evidence must be reviewed with an administrator.
 
-Enrollment will be rolling during the operating period, subject to capacity and reward availability. Teams beyond the limit may join a waitlist.
+Enrollment will be open during Months 1–3, subject to capacity and reward availability, and will close at the end of Month 3. Teams beyond the limit may join a waitlist during this window. No new teams, including waitlisted teams, will be admitted after enrollment closes.
 
 #### Individual Onboarding and Sustainability Goals
 
@@ -206,9 +206,9 @@ A final retrospective will summarize the results and recommend improvements.
 
 ### 7. Timeline
 
-The hackathon will prepare and launch during Month 1, run rolling enrollment and activities during the operating period, and receive a formal review at Month 8. Teams need two consecutive months of verified sustainability before a reward can be paid.
+The hackathon will run for six months, with preparation and launch during Month 1, enrollment open during Months 1–3, continued activities during Months 4–5, and formal evaluation and closure in Month 6. Teams need two consecutive months of verified sustainability before a reward can be paid.
 
-Enrollment and the two-month qualification windows may overlap. The program is not a single fixed cohort, but no more than 30 teams will be active at a time.
+Enrollment and the two-month qualification windows may overlap during the first three months. Enrollment closes at the end of Month 3; the remaining three months support enrolled teams, reward verification, evaluation, and closure. No more than 30 teams will be active at a time.
 
 #### Month 1 — Preparation and Launch
 
@@ -217,24 +217,32 @@ Enrollment and the two-month qualification windows may overlap. The program is n
 - Confirm eligibility, enrollment limits, evidence standards, prize funding, tax handling, and privacy rules before taking registrations.
 - Invite teams and approach potential sponsors. Launch after at least 10 qualified teams have enrolled.
 
-#### Months 2–7 — Enrollment and Activities
+#### Months 2–3 — Enrollment and Activities
 
-- Enroll qualified teams while spaces remain available; use a waitlist once 30 active teams are reached.
+- Enroll qualified teams while spaces remain available; use a waitlist once 30 active teams are reached. Close enrollment, including admissions from the waitlist, at the end of Month 3.
 - Hold individual onboarding meetings of no more than 30 minutes; document and confirm each team’s goals.
 - Host optional biweekly group Open Spaces and collect required monthly blog posts.
 - Offer optional learning resources, collect feedback, and improve the playbook as the program runs.
 - Verify teams that complete two consecutive months of their agreed goals and award available prizes.
 
-#### Month 8 — Formal Evaluation
+#### Months 4–5 — Activities and Qualification
+
+- Continue supporting enrolled teams; enrollment remains closed.
+- Host optional biweekly group Open Spaces and collect required monthly blog posts.
+- Support teams in completing two consecutive months of their agreed sustainability goals.
+- Verify evidence, award available prizes, and continue gathering feedback and improving the playbook.
+
+#### Month 6 — Formal Evaluation and Closure
 
 - Review enrollment, completions, dropouts, prize claims, sponsorship, and administrator workload.
 - Evaluate what participants learned and whether Gimbalabs has developed a useful, repeatable program.
-- Decide whether to extend, open new places, or close the program, taking existing participant commitments into account.
+- Complete outstanding reward reviews and close the six-month program, taking existing participant commitments into account.
+- Recommend improvements and assess interest in a future program.
 - Report remaining reward funds and how they will be handled under sponsor or treasury agreements.
 
 #### Program Closure
 
-Set a clear final closure date so the program does not remain open indefinitely while holding unused funds. The closure date and treatment of late qualifying teams must be confirmed.
+The program will close at the end of Month 6. Confirm and publish the exact calendar dates for enrollment closure, final reward claims, and program closure before launch so all enrolled teams understand the time available to qualify.
 
 ### 8. Resources Required
 
@@ -307,7 +315,7 @@ Teams are responsible for:
 | Participant disengagement or dropout | Use optional group Open Spaces, monthly written updates, and a clear process for leaving or changing goals. |
 | Administrative workload exceeds expectations | Use simple tools, share responsibilities, and review resource use regularly. |
 | Program is difficult to replicate | Document procedures, costs, challenges, and lessons throughout the experiment. |
-| Program becomes inactive while holding unused funds | Conduct an eight-month evaluation, establish a final closure date, and return unused funds to their original sponsoring organizations according to funding agreements. |
+| Program becomes inactive while holding unused funds | Conduct a six-month evaluation, close the program at the end of Month 6, and return unused funds to their original sponsoring organizations according to funding agreements. |
 | Fraudulent or agent-only entries | Confirm the accountable human and actual product or service during onboarding; keep proportionate evidence and eligibility checks. |
 | Different goals feel unfair | Agree on team-specific goals but use consistent standards of evidence and an appeal or review process. |
 | More qualified teams than funded awards | Publish the five-award limit and first-verified rule before enrollment; seek sponsors but do not promise extra prizes. |
@@ -333,9 +341,9 @@ These findings will contribute to the Sustainability Hackathon playbook and supp
 
 #### Formal Evaluation
 
-In Month 8, administrators will formally review the program’s results, costs, sustainability, and potential for reuse.
+In Month 6, administrators will formally review the program’s results, costs, sustainability, and potential for reuse.
 
-The review will inform decisions about further enrollment, additional sponsorships, extension, or closure.
+The review will inform recommendations for future programs and sponsorships, and document the closure of the current six-month program.
 
 A final retrospective will document overall results and recommendations for future implementations.
 
@@ -372,7 +380,7 @@ Public use of names, recordings, business details, or project results will requi
 - Confirm the revised 19,000 ADA budget (8,000 administration, 10,000 rewards, and 1,000 subscriptions and tooling).
 - Confirm whether each monthly blog post must be public or may be shared only with the hackathon community, and whether social media posts are optional.
 - Confirm proof-of-human / agent rules, consent for recorded onboarding, retention of private evidence, and what happens if a participant declines recording.
-- Confirm exact last enrollment date, reward-claim deadline, and closure arrangements for teams who enroll late.
+- Confirm exact calendar dates for enrollment closure at the end of Month 3, the final reward-claim deadline, and program closure at the end of Month 6.
 - Confirm award ordering, review/appeal procedures, and the procedure if more than five teams qualify.
 - Have a qualified adviser confirm U.S. and international tax treatment and reporting for contest prizes before payments.
 
