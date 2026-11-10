@@ -240,13 +240,16 @@ Set a clear final closure date so the program does not remain open indefinitely 
 
 #### Budget
 
-Request 18,000 ADA from the Gimbalabs Treasury, as shown below. This is the amount in the latest edited draft and should be confirmed before approval.
+Request 19,000 ADA from the Gimbalabs Treasury, as shown below. This is the amount in the latest edited draft and should be confirmed before approval.
 
 | Purpose | Amount |
 | --- | ---: |
 | Sustainability track rewards (5 teams × 2,000 ADA) | 10,000 ADA |
 | Administration and coordination | 8,000 ADA |
-| Total | 18,000 ADA |
+| Subscriptions and tooling | 1,000 ADA |
+| Total | 19,000 ADA |
+
+Subscriptions and tooling include services such as Zoom and Slack. The tools will be finalized by the hackathon administrators.
 
 Seek sponsorship for additional awards or administrative support. The proposed reward remains 2,000 ADA per qualifying team unless a change is formally approved.
 
@@ -366,7 +369,7 @@ Public use of names, recordings, business details, or project results will requi
 
 ## Open Decisions Before Launch
 
-- Confirm the revised 18,000 ADA budget (8,000 administration and 10,000 rewards).
+- Confirm the revised 19,000 ADA budget (8,000 administration, 10,000 rewards, and 1,000 subscriptions and tooling).
 - Confirm whether each monthly blog post must be public or may be shared only with the hackathon community, and whether social media posts are optional.
 - Confirm proof-of-human / agent rules, consent for recorded onboarding, retention of private evidence, and what happens if a participant declines recording.
 - Confirm exact last enrollment date, reward-claim deadline, and closure arrangements for teams who enroll late.
