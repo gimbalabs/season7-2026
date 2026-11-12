@@ -148,7 +148,7 @@ Your proposal should be accessible to the community and available for feedback a
 
 3. Submit your proposal to Gimbalabs
 
-Create a new issue in the [Season 7 GitHub Issues](https://github.com/gimbalabs/season7-2026/issues).
+Create a new issue in the [Season 7 GitHub Issues](https://github.com/gimbalabs/season7-2026/issues). You can also fork the Season7 repo or create a new branch and connect your PR with the Project Board.
 
 Include:
 - A descriptive title
